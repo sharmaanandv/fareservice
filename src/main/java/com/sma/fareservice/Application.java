@@ -19,6 +19,5 @@ public class Application {
     @PostConstruct
     private void init() {
         fareCalculationService.calculateFare();
-
     }
 }

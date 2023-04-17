@@ -4,6 +4,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface FareCalculationService {
-    void calculateFare();
+    int calculateFare();
 
 }
